@@ -5,27 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Guerras</title>
   <meta name="description" content="Meta descripción de la página de contacto">
-  <link rel="icon" href="/ProyectoFinal/img/favicon.png">
-  <link rel="stylesheet" href="/ProyectoFinal/css/styles.css">
-  <script src="/ProyectoFinal/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" href="/img/favicon.png">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
   <header>
+  <link rel="stylesheet" href="/code/css/styles.css">
+
+  <div class="container">
+    <!-- Barra de búsqueda -->
+    <form id="searchForm" action=""\code\_includes\search.njk"" method="get">
+      <input type="text" name="query" id="searchInput" placeholder="Buscar..." />
+      <button type="submit">Buscar</button>
+    </form>
+  </div>
+
   <h2> WIKI STAR WARS </h2>
-    <nav class="menu">
+
+  <nav class="menu">
   <ul>
-    <li><a href="/ProyectoFinal/">Inicio</a></li>
-    <li><a href="/ProyectoFinal/facciones">Facciones</a></li>
-    <li><a href="/ProyectoFinal/guerras">Guerras</a></li>
-    <li><a href="/ProyectoFinal/personajes">Personajes</a></li>
+    <li><a href="/">Inicio</a></li>
+    <li><a href="/facciones">Facciones</a></li>
+    <li><a href="/guerras">Guerras</a></li>
+    <li><a href="/personajes">Personajes</a></li>
   </ul>
 </nav>
-  </header>
+</header>
 
-  
   <main>
     
-<style type="text/css">
+<style type= "text/css">
   body
   {color: white}
 </style>
@@ -33,8 +43,8 @@
 
 
 <p>
-  <img src="/ProyectoFinal/img/clone.png" alt="Guerra de los Clones">
-  </p><h1 id="guerra-de-los-clones">Guerra de los clones</h1>
+  <img src="/img/clone.png" alt="Guerra de los Clones">
+  <h1 id="guerra-de-los-clones">Guerra de los clones</h1>
 <p>La creación de los clones es uno de los elementos más importantes de la guerra. Los clones son seres 
 genéticamente modificados a partir del cazador de recompensas Jango Fett, diseñados para ser soldados 
 leales, fuertes y obedientes. Estos soldados fueron creados en secreto en el planeta Kamino, por encargo de 
@@ -82,7 +92,7 @@ totalitario. Los ecos de la guerra y sus consecuencias se sienten a lo largo de 
 sientan las bases para la rebelión contra el Imperio y la eventual restauración de la democracia en la 
 galaxia.</p>
 
-<img src="/ProyectoFinal/img/endor.png" alt="Guerra de Endor">
+<img src="/img/endor.png" alt="Guerra de Endor">
 <h1 id="batalla-de-endor">Batalla de Endor</h1>
 <p>La Batalla de Endor ocurre en el contexto de una galaxia al borde del colapso del Imperio. Aunque el 
 Imperio ha sufrido grandes derrotas, como la destrucción de la Estrella de la Muerte en la Batalla de 
@@ -136,13 +146,13 @@ sufridas durante su intervención.</p>
 marcando la victoria de la Rebelión sobre el Imperio. Con la caída del Emperador y la derrota final de las 
 fuerzas imperiales, el dominio del Imperio en la galaxia llega a su fin, aunque algunas facciones imperiales 
 seguirán resistiendo por un tiempo.</p>
-<p></p>
+</p>
   </main>
   <hr>
 <footer>
   <small>Que la fuerza te acompañe</small>
 </footer>
 
-  <script src="/ProyectoFinal/js/main.js" type="module"></script>
+  <script src="/js/main.js" type="module"></script>
 </body>
 </html>

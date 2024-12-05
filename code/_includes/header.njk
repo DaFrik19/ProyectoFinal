@@ -1,6 +1,15 @@
 <header>
-  <h2> WIKI STAR WARS </h2>
-    {% include "menu.njk" %}
-  </header>
+  <link rel="stylesheet" href="/code/css/styles.css">
 
-  
+  <div class="container">
+    <!-- Barra de búsqueda -->
+    <form id="searchForm" action=""\code\_includes\search.njk"" method="get">
+      <input type="text" name="query" id="searchInput" placeholder="Buscar..." />
+      <button type="submit">Buscar</button>
+    </form>
+  </div>
+
+  <h2> WIKI STAR WARS </h2>
+
+  {% include "menu.njk" %}
+</header>
