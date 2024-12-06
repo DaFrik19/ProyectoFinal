@@ -1,5 +1,9 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -10,7 +14,6 @@ body {
   padding: 1rem;
   max-width: 800px;
   min-height: 100vh;
-  border: medium solid rgb(255, 255, 59);
   text-align: center;
   font-family: system-ui, sans-serif;
 }

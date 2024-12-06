@@ -1,4 +1,17 @@
 <nav class="menu">
+<form action="/" method="GET">
+  <input type="text" name="search" placeholder="Buscar..." value="{{ searchQuery }}">
+  <button type="submit">Buscar</button>
+</form>
+<ul>
+  {% for item in items %}
+    {% if searchQuery and item.name | lower | contains(searchQuery | lower) %}
+      <li>{{ item.name }}</li>
+    {% elif not searchQuery %}
+      <li>{{ item.name }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
   <ul>
     <li><a href="/">Inicio</a></li>
     <li><a href="/facciones">Facciones</a></li>

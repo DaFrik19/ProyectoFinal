@@ -8,13 +8,15 @@
   <link rel="icon" href="/img/favicon.png">
   <link rel="stylesheet" href="/css/styles.css">
   <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
+
 <body>
-  {% include "header.njk" %}
-  <main>
-    {{ content | safe }}
-  </main>
-  {% include "footer.njk" %}
-  <script src="/js/main.js" type="module"></script>
+ {% include "header.njk" %}
+    <main>
+      {{ content | safe }}
+    </main>
+ {% include "footer.njk" %}
+   <script src="/js/main.js" type="module"></script>
 </body>
 </html>
